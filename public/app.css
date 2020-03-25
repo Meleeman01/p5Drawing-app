@@ -1,0 +1,30 @@
+html {
+	background-color:#d2bbf7;
+}
+body {
+	font-style: sans;
+	background-color: whitesmoke;
+}
+
+.wrapper {
+	display: flex;
+	align-items: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.drawing-panel {
+	background-color: pink;
+	    width: 10%;
+    height: 500px
+}
+
+canvas {
+	
+    border: dotted black 1px;
+}
+
+.layer-panel {
+	width: 10%;
+    background-color: lightslategrey;
+}

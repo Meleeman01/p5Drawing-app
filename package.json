@@ -1,0 +1,27 @@
+{
+  "name": "p5drawing-app",
+  "version": "1.0.0",
+  "description": "a custom app for drawing pictures using the p5 library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meleeman01/p5Drawing-app.git"
+  },
+  "author": "Meleeman01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Meleeman01/p5Drawing-app/issues"
+  },
+  "homepage": "https://github.com/Meleeman01/p5Drawing-app#readme",
+  "dependencies": {
+    "bulma": "^0.8.1",
+    "eslint": "^6.8.0",
+    "font-awesome": "^4.7.0",
+    "p5": "^1.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple drawing app</title>
+	<link rel="stylesheet" type="text/css" href="../node_modules/bulma/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="../node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+	<h1>P5 Drawing App</h1>
+	<div class="sidebar">
+	<ul>
+		<li>
+			<label for="color">Color:</label>
+			<input type="color" id="color"/>
+		</li>
+		<li>
+			<label for="weight">Stroke:</label>
+			<input type="number" id="weight" min="2" max="200" value="3"/>
+		</li>
+		<li>
+			<button class="button is-danger" id="clear"><i class="fa fa-trash"></i></button>
+		</li>
+	</ul>
+</div>
+	<!--call our drawing library first-->
+	<script src="../node_modules/p5/lib/p5.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
