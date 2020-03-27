@@ -49,11 +49,6 @@ function draw() {
 		});
 		endShape();
 	});
-	//undo stokes.
-	if (keyIsDown(CONTROL)&&keyIsDown(90)) {
-		console.log('undo function here'+currentPath.length);
-		return;
-	}
 }
 
 //called whenever window is resized
@@ -82,7 +77,16 @@ function mousePressed() {
 	paths.push(currentPath);
 }
 
+function keyPressed() {
+	//undo strokes
+	if (keyIsDown(CONTROL)&&keyIsDown(90)) {
+		paths.splice(paths.length-1);
+		background(255);
+	}
+}
+
 clear.addEventListener('click', () => {
 	paths.splice(0);
 	background(255);
+
 });
